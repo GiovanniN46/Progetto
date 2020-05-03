@@ -5,17 +5,6 @@ variable "server_port" {
 }
 
 #Parametri necessari--------------------------
-
-variable "access_key"{
-  type = string
-  default = "AKIAXNK47647ALF22YKR"
-}
-
-variable "secret_key"{
-  type = string
-  default = "yl0rjKGGAI4x6JlVaW7gNAldVCVfR7hhoqmf0u4C"
-}
-
 variable "cluster_name" {
   description = "Il nome da usa per le risorse cluster"
   type = string
